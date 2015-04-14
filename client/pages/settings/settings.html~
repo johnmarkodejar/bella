@@ -1,0 +1,14 @@
+<template name="settings">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="padding">Customer ID: <strong>KAPON</strong></div>
+		<button class="button button-full button-positive icon-left ion-star">MY ACCOUNT</button>
+		<button class="button button-full button-calm icon-left ion-star">MANAGE FAVOURITES</button>
+		<button class="button button-full button-positive icon-left ion-star">CREDIT CARD SETTINGS</button>
+		<button class="button button-full button-calm icon-left ion-star">ORDER HISTORY</button>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

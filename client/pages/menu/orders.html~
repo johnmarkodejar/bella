@@ -1,0 +1,47 @@
+<template name="orders">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list">
+		  <div class="item item-divider item-menu">
+		    Deals
+		  </div>
+		  <a class="item item-button-right" href="#">
+		    Small Coffee + Cheese Toastie $6.50
+		    <button class="button"><i class="icon ios-arrow-forward"></i></button>
+		  </a>
+		</div>
+		<div class="list">
+		  <div class="item item-divider item-menu">
+		    Menu
+		  </div>
+		  <div class="item item-divider">
+		    ESPRESSO & CHOCOLATE 
+		  </div>
+		  <a class="item item-button-right" href="#">
+		    Butterfinger
+		    <button class="button"><i class="icon ios-arrow-forward"></i></button>
+		  </a>
+		  <div class="item item-divider">
+		    TEA
+		  </div>
+		  <a class="item item-button-right" href="#">
+		    Butterfinger
+		    <button class="button"><i class="icon ion-ios7-telephone"></i></button>
+		  </a>
+		  <a class="item item-button-right" href="#">
+		    Butterfinger 2
+		    <button class="button"><i class="icon ion-ios7-telephone"></i></button>
+		  </a>
+		  <div class="item item-divider">
+		    FOOD
+		  </div>
+		  <div class="item item-divider">
+		    MISC
+		  </div>
+		</div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

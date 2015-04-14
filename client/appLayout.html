@@ -1,0 +1,15 @@
+<template name="appLayout">
+{{#ionBody}}
+	{{> ionNavBar class="bar-custom"}}
+	{{#ionNavView}}	
+		{{> yield}}
+	{{/ionNavView}}
+	{{#ionTabs class="tabs-icon-top tab-custom"}}
+		{{> ionTab title="Menu" path="/" icon="coffee"}}
+		{{> ionTab title="Order" path="orders"  iconOff="android-cart" iconOn="android-cart"}}	
+		{{> ionTab title="Credits" path="creditcard" iconOff="card" iconOn="card"}}
+		{{> ionTab title="Badges" path="badges" iconOff="ribbon-b" iconOn="ribbon-b"}}
+		{{> ionTab title="More" path="settings" iconOff="navicon-round" iconOn="navicon-round"}}
+	{{/ionTabs}}
+{{/ionBody}}
+</template>

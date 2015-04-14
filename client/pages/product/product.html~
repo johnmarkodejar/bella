@@ -1,0 +1,169 @@
+<template name="product">
+	{{#contentFor "headerButtonLeft"}}
+	  {{>ionNavBackButton path="/" text="Menu"}}
+	{{/contentFor}}
+	{{#contentFor "headerTitle"}}
+	  <h1 class="title">Butterfinger</h1>
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list">
+		  <div class="item item-divider">
+		    Size
+		  </div>
+		  <label class="item item-radio">
+		    <input type="radio" name="group">
+		    <div class="item-content">
+		      Small
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group">
+		    <div class="item-content">
+		      Medium
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+	 	  <label class="item item-radio">
+		    <input type="radio" name="group">
+		    <div class="item-content">
+		      Large
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <div class="item item-divider">
+		    Milk
+		  </div>
+		  <label class="item item-radio">
+		    <input type="radio" name="group1">
+		    <div class="item-content">
+		      Regular
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group1">
+		    <div class="item-content">
+		      Skinny
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+	 	  <label class="item item-radio">
+		    <input type="radio" name="group1">
+		    <div class="item-content">
+		      Soy
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <div class="item item-divider">
+		    Syrup
+		  </div>
+		  <label class="item item-radio">
+		    <input type="radio" name="group3">
+		    <div class="item-content">
+		      No
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group3">
+		    <div class="item-content">
+		      Caramel
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group3">
+		    <div class="item-content">
+		      Vanilla
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group3">
+		    <div class="item-content">
+		      Hazelnut
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <div class="item item-divider">
+		    Strength
+		  </div>
+		  <label class="item item-radio">
+		    <input type="radio" name="group5">
+		    <div class="item-content">
+		      Weak
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group5">
+		    <div class="item-content">
+		      Normal
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group5">
+		    <div class="item-content">
+		      Hot
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <div class="item item-divider">
+		    Temperature
+		  </div>
+		  <label class="item item-radio">
+		    <input type="radio" name="group4">
+		    <div class="item-content">
+		      Weak
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group4">
+		    <div class="item-content">
+		      Normal
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-radio">
+		    <input type="radio" name="group4">
+		    <div class="item-content">
+		      Hot
+		    </div>
+		    <i class="radio-icon ion-checkmark"></i>
+		  </label>
+		  <label class="item item-input item-select item-divider">
+		    <div class="input-label">
+		      Sugar
+		    </div>
+		    <select>
+		      <option>1</option>
+		      <option selected>2</option>
+		      <option>3</option>
+		    </select>
+		  </label>
+		  <div class="item item-divider">
+		    Others
+		  </div>
+		  <div class="item item-checkbox">
+		     <label class="checkbox">
+		       <input type="checkbox">
+		     </label>
+		     Equal Sugar
+		  </div>
+		  <div class="item item-checkbox">
+		     <label class="checkbox">
+		       <input type="checkbox">
+		     </label>
+		     Organic Beans
+		  </div>
+		</div>
+		<div class="padding">
+		<button class="button button-block button-positive">Add to Order</button>
+	      </div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

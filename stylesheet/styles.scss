@@ -1,0 +1,23 @@
+$loading-font-size: 22px;
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
+.contact-detail {
+background: $stable;
+}
+.nav a.dropdown-toggle{background:blue; color:#fff;}
+.content p.login{padding:10px; text-align:center; font-weight:bold;}
+.content label .prog{text-align:center; font-weight:bold;}
+.bar-custom{background-color:#ff7f26;}
+.item{background-color:#e8e8ea; font-weight:bold;}
+.item-divider{background-color:#00bcb4; color:#fff !important; text-transform:uppercase;}
+.item-divider .input-label{color:#fff !important;}
+.item-menu{font-weight:bold; background-color:#67717d;}
+
+.list-inset .item{background-color:#e8e8ea;}
+.form .item{background-color:#fff !important;}
+.form .item-divider{background-color:#00bcb4 !important; color:#fff !important;}
+.list-inset .item p{font-weight:normal; text-align:center;}
+.list-inset .item-divider{background-color:#00bcb4; color:#fff;}
+.button-full{margin:0 !important; font-weight:bold;}
+.title-center{color:#fff !important; font-weight:bold;}
+.back-button{color:#fff !important; font-weight:bold;}

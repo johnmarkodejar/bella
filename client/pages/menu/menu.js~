@@ -1,0 +1,12 @@
+Template.menu.helpers({
+ 	products: function(){
+		return Products.find();
+	}
+});
+Template.menu.events({
+ 	'click .item-divider':function(event){
+		var datac = $(event.currentTarget).attr("data");
+		console.log(datac);
+		$(".item-prod").toggle(100);
+	} 
+});

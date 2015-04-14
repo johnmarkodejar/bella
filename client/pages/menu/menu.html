@@ -1,0 +1,36 @@
+<template name="menu">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list">
+		  <div class="item item-divider item-menu">
+		    Deals
+		  </div>
+		  <a class="item item-icon-right" href="/product" >
+		    Small Coffee + Cheese Toastie $6.50
+		  </a>
+		</div>
+		<div class="list">
+		  <div class="item item-divider item-menu">
+		    Menu
+		  </div>
+		  {{#each products}}
+		  {{#if category}}
+  		  <a class="item item-divider" data="{{parent}}">{{name}}</a>
+		  {{else}}
+		  <a class="item item-prod item-icon-right {{parent}}" href="/product" >
+		    {{name}}
+		  </a>
+		  {{/if}}
+		  {{/each}}
+		</div>
+		<div class="list">
+		  <div class="item item-divider item-menu">
+		    KAPON
+		  </div>
+		</div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>
