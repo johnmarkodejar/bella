@@ -1,0 +1,32 @@
+<template name="creditcard">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list list-inset form">
+		  <div class="item item-divider item-button-right">
+		    Add Credit Card
+		  </div>
+		  <div class="item">
+		    <img src="https://bella.zenchi.co/resources/images/ssl-stripe-2x.gif" alt="" style="width:280px;">
+		  </div>
+		   <label class="item item-input">
+		    <input type="text" placeholder="Cardholder">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Card Number">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="Expiry Date">
+		  </label>
+		  <label class="item item-input">
+		    <input type="text" placeholder="CVV Code">
+		  </label>
+		</div>
+		<div class="padding">
+		<button class="button button-block button-positive">Sign In</button>
+	      </div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

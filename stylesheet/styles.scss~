@@ -14,8 +14,20 @@ background: $stable;
 .item-menu{font-weight:bold; background-color:#67717d;}
 
 .list-inset .item{background-color:#e8e8ea;}
+.list-order .item{background-color:#fff;}
 .form .item{background-color:#fff !important;}
 .form .item-divider{background-color:#00bcb4 !important; color:#fff !important;}
 .list-inset .item p{font-weight:normal; text-align:center;}
 .list-inset .item-divider{background-color:#00bcb4; color:#fff;}
-.button-full{margin:0 !important; font-weight:bold;}
+.button-full{margin:0 !important; font-weight:bold; text-align:left;}
+.title-center{color:#fff !important; font-weight:bold;}
+.back-button{color:#fff !important; font-weight:bold;}
+.row-amt{font-size:12px;}
+.list-order .order-variations{text-align:left !important; overflow:inherit; text-overflow:inherit; white-space:normal; font-size:10px;}
+.button-assertive{font-size:11px !important; font-weight:bold;}
+.back-header{background:#b4b3b0 !important; padding-top:0; padding-bottom:0;}
+.item-select{padding-top:5px; padding-bottom:5px;}
+.item-select select{padding-top:8px; padding-bottom:10px;}
+.item-select .input-label{padding-top:.3px; padding-bottom:3px;}
+.bar{height:55px;}
+.has-header{top:55px;}

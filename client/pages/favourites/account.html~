@@ -1,0 +1,33 @@
+<template name="account">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list list-order">
+		  <div class="item item-divider item-button-right">
+		    Add Credit Card
+		  </div>
+		   <label class="item item-input item-stacked-label">
+		    <span class="input-label">Firstname</span>
+		    <input type="text" placeholder="John">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Lastname</span>
+		    <input type="text" placeholder="Doe">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Suburb</span>
+		    <input type="text" placeholder="NSW">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Postcode</span>
+		    <input type="text" placeholder="90210">
+		  </label>
+		</div>
+		<div class="padding">
+		<button class="button button-block button-positive">Update Info</button>
+	      </div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

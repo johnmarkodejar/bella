@@ -8,9 +8,8 @@
 		  <div class="item item-divider item-menu">
 		    Deals
 		  </div>
-		  <a class="item item-button-right" href="/product" >
+		  <a class="item item-icon-right" href="/product" >
 		    Small Coffee + Cheese Toastie $6.50
-		    <button class="button"><i class="icon ios-arrow-forward"></i></button>
 		  </a>
 		</div>
 		<div class="list">
@@ -26,6 +25,17 @@
 		  </a>
 		  {{/if}}
 		  {{/each}}
+		  <a class="item item-divider" data="coffee">Coffee</a>
+		  <a class="item item-thumbnail-left coffee">
+			<img src="http://ionicframework.com/img/docs/blue-album.jpg" alt="" />
+			<h2>Cappuccino</h2>
+			<p>cappucinno description goes here.</p>
+		  </a>
+		  <a class="item item-thumbnail-left coffee">
+			<img src="http://ionicframework.com/img/docs/blue-album.jpg" alt="" />
+			<h2>Latte</h2>
+			<p>latte description goes here.</p>
+		  </a>
 		</div>
 		<div class="list">
 		  <div class="item item-divider item-menu">

@@ -135,16 +135,13 @@
 		    </div>
 		    <i class="radio-icon ion-checkmark"></i>
 		  </label>
-		  <label class="item item-input item-select item-divider">
-		    <div class="input-label">
-		      Sugar
-		    </div>
-		    <select>
-		      <option>1</option>
-		      <option selected>2</option>
-		      <option>3</option>
-		    </select>
-		  </label>
+		  <div class="item item-divider">
+		    Sugar
+		  </div>
+		  <div class="range">
+		    	<input type="range" id="sugar" name="sugar" min="0" max="10" value="1" data-holder="sugar-holder" />
+			<i class="icon" id="sugar-holder">1</i>
+		  </div>
 		  <div class="item item-divider">
 		    Others
 		  </div>
@@ -159,6 +156,19 @@
 		       <input type="checkbox">
 		     </label>
 		     Organic Beans
+		  </div>
+		  <div class="item item-checkbox">
+		     <label class="checkbox">
+		       <input type="checkbox">
+		     </label>
+		     Decaf
+		  </div>
+		  <div class="item item-divider">
+		    Quantity
+		  </div>
+		  <div class="range">
+		    	<input type="range" id="qty" name="qty" min="0" max="10" value="1" data-holder="qty-holder" />
+			<i class="icon" id="qty-holder">1</i>
 		  </div>
 		</div>
 		<div class="padding">

@@ -4,13 +4,50 @@
 	{{/contentFor}}
 	{{#ionView}}
 		{{#ionContent}}
-		<div class="list list-inset">
+		<div class="list list-inset list-order">
 		  <div class="item item-divider item-button-right">
 		    Your Order
 		  </div>
 		  <div class="item">
-		    <p>Click menu to add your orders</p>
+		    <div class="row">
+			<div class="col col-75">Latte x 1<p class="order-variations">Small Size, Skinny Milk, 0 Sugar, No Syrup, Normal Temperature, Normal Strength</p></div>
+			<div class="col col-25">$10.00</div>
+		    </div>
 		  </div>
+		  <label class="item item-input">
+		<textarea placeholder="Additional Notes"></textarea>			
+		</label>
+		<div class="item" style="paddin-top:0; padding-bottom:0;">
+		    <div class="row row-amt">
+			<div class="col col-75">Order Total</div>
+			<div class="col col-25">$ 10.00</div>
+		    </div>
+		    <div class="row row-amt">
+			<div class="col col-75">Total Payment</div>
+			<div class="col col-25">$ 3.80</div>
+		    </div>
+		    <div class="row row-amt">
+			<div class="col col-75">Credit Balance</div>
+			<div class="col col-25">$ 10.00</div>
+		    </div>
+		    <div class="row row-amt">
+			<div class="col col-75">Balance Due</div>
+			<div class="col col-25">$ 47.00</div>
+		    </div>
+		  </div>
+		<label class="item item-input item-select item-divider">
+		    <div class="input-label">
+		      Pick-up In
+		    </div>
+		    <select>
+		      <option selected>1 Minute</option>
+		      <option>2 Minutes</option>
+		      <option>3 Minutes</option>
+		      <option>4 Minutes</option>
+		      <option>5 Minutes</option>
+		    </select>
+		  </label>
+		<button class="button button-block button-positive">Confirm Order</button>
 		</div>
 		{{/ionContent}}
 	{{/ionView}}

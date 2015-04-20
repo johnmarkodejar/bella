@@ -1,0 +1,28 @@
+<template name="favourites">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="item item-divider back-header">
+		    {{>ionNavBackButton path="/" text="Back"}}
+		  </div>
+		<div class="list list-order list-inset">
+		  <div class="item item-divider item-button-right">
+		    <span>Update your favourites</span>
+		  </div>
+		  <div class="item item-button-right">
+			Latte [$ 3.80]<p class="order-variations">Small Size, Skinny Milk, 0 Sugar, No Syrup, Normal Temperature, Normal Strength</p>
+			<button class="button button-assertive"><span>Remove</span></button>
+		  </div>
+		  <div class="item item-toggle">
+		    Enable Express Order
+		    <label class="toggle toggle-dark">
+			<input type="checkbox" />
+			<div class="track"><div class="handle"></div></div>
+		    </label>
+		  </div>
+		</div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

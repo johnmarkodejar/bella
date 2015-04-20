@@ -1,0 +1,18 @@
+<template name="login">
+	{{#contentFor "headerButtonLeft"}}
+	  <img src="https://bella.zenchi.co/resources/images/bella-logo-180.png" height="100%" />
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+		<div class="list list-landing list-order">
+		   <div class="item item-divider">
+			<a href="/"><img src="https://bella.zenchi.co/resources/images/btn-facebook.png" alt="Facebook" /></a>
+		   </div>
+		   <div class="item item-divider">
+			<a href="/register"><img src="https://bella.zenchi.co/resources/images/btn-email.png" alt="Email" /></a>
+		   </div>
+			
+		</div>
+		{{/ionContent}}
+	{{/ionView}}
+</template>

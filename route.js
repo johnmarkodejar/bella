@@ -1,7 +1,7 @@
 Router.configure({
     layoutTemplate: 'appLayout'
 });
-Router.route('/', {
+Router.route('/menu', {
 name: 'menu'
 });
 Router.route('/orders', {
@@ -15,6 +15,20 @@ name: 'product'
 });
 Router.route('/creditcard', {
 name: 'creditcard'
+});
+Router.route('/account', {
+name: 'account'
+});
+Router.route('/favourites', {
+name: 'favourites'
+});
+Router.route('/', {
+name: 'login',
+layoutTemplate: 'loginLayout'
+});
+Router.route('/register', {
+name: 'register',
+layoutTemplate: 'loginLayout'
 });
 
 	

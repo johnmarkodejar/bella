@@ -5,10 +5,10 @@
 		{{> yield}}
 	{{/ionNavView}}
 	{{#ionTabs class="tabs-icon-top tab-custom"}}
-		{{> ionTab title="Menu" href="/" path="/" icon="coffee"}}
+		{{> ionTab title="Menu" path="/" href="/" icon="coffee"}}
 		{{> ionTab title="Order" path="orders"  iconOff="android-cart" iconOn="android-cart"}}	
-		{{> ionTab title="Credits" path="/creditcard" href="/creditcard" iconOff="card" iconOn="card"}}
-		{{> ionTab title="Badges" path="online" iconOff="ribbon-b" iconOn="ribbon-b"}}
+		{{> ionTab title="Credits" path="creditcard" iconOff="card" iconOn="card"}}
+		{{> ionTab title="Badges" path="badges" iconOff="ribbon-b" iconOn="ribbon-b"}}
 		{{> ionTab title="More" path="settings" iconOff="navicon-round" iconOn="navicon-round"}}
 	{{/ionTabs}}
 {{/ionBody}}
