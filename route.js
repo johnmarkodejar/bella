@@ -1,5 +1,12 @@
 Router.configure({
-    layoutTemplate: 'appLayout'
+    layoutTemplate: 'appLayout',
+    loadingTemplate: 'loading'
+});
+
+Router.map(function() {
+	this.route('product', {
+		path: '/product'
+	});
 });
 Router.route('/menu', {
 name: 'menu'
@@ -10,9 +17,7 @@ name: 'orders'
 Router.route('/settings', {
 name: 'settings'
 });
-Router.route('/product', {
-name: 'product'
-});
+
 Router.route('/creditcard', {
 name: 'creditcard'
 });
