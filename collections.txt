@@ -1,0 +1,55 @@
+Products.insert({name:"Espresso & Chocolate",category:true,parent:'espresso-chocolate'});
+Products.insert({name:"Flat White",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Cappucino",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Latte",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Mocha",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Short Macchiato",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"White Mocha",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Long Macchiato",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Short Black",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Long Black",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Hot Chocolate",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Babycino",category:false,parent:'espresso-chocolate'});
+Products.insert({name:"Chai Latte",category:false,parent:'espresso-chocolate'});
+
+Products.insert({name:"Tea",category:true,parent:'tea'});
+Products.insert({name:"English Breakfast",category:false,parent:'tea'});
+Products.insert({name:"Earl Grey Tea",category:false,parent:'tea'});
+Products.insert({name:"Green Tea",category:false,parent:'tea'});
+Products.insert({name:"Peppermint Tea",category:false,parent:'tea'});
+Products.insert({name:"Chai Tea",category:false,parent:'tea'});
+
+Products.insert({name:"Cold Milk Drinks",category:true,parent:'cold-milk-drinks'});
+Products.insert({name:"Iced Espresso",category:false,parent:'cold-milk-drinks'});
+Products.insert({name:"Iced Mocha",category:false,parent:'cold-milk-drinks'});
+Products.insert({name:"Iced Chocolate",category:false,parent:'cold-milk-drinks'});
+Products.insert({name:"Berry Smoothie",category:false,parent:'cold-milk-drinks'});
+Products.insert({name:"Mango Smoothie",category:false,parent:'cold-milk-drinks'});
+Products.insert({name:"Banana Smoothie",category:false,parent:'cold-milk-drinks'});
+
+Products.insert({name:"Juices & Water",category:true,parent:'juices-water'});
+Products.insert({name:"Bottled Water",category:false,parent:'juices-water'});
+
+Products.insert({name:"Food",category:true,parent:'food'});
+Products.insert({name:"SmartyPants Biscuit",category:false,parent:'food'});
+Products.insert({name:"Bacon & Egg Muffin",category:false,parent:'food'});
+Products.insert({name:"Cake",category:false,parent:'food'});
+Products.insert({name:"ChocChip Biscuit",category:false,parent:'food'});
+Products.insert({name:"Ham Cheese Tomato Toastie",category:false,parent:'food'});
+Products.insert({name:"Ham & Cheese Toastie",category:false,parent:'food'});
+Products.insert({name:"Cheese & Tomato Toastie",category:false,parent:'food'});
+Products.insert({name:"Cheese Toastie",category:false,parent:'food'});
+
+Products.insert({name:"Muffins - Fresh Daily",category:true,parent:'muffins'});
+Products.insert({name:"Blueberry",category:false,parent:'muffins'});
+Products.insert({name:"Choc Banana",category:false,parent:'muffins'});
+Products.insert({name:"Raspeberry and White Choc",category:false,parent:'muffins'});
+Products.insert({name:"Chocolate",category:false,parent:'muffins'});
+
+Products.insert({name:"Misc",category:true,parent:'misc'});
+Products.insert({name:"Newspaper",category:false,parent:'misc'});
+Products.insert({name:"Sun Newspaper",category:false,parent:'misc'});
+Products.insert({name:"Sat Newspaper",category:false,parent:'misc'});
+Products.insert({name:"Babycino",category:false,parent:'misc'});
+Products.insert({name:"Bella Beans 250 grams",category:false,parent:'misc'});
+
